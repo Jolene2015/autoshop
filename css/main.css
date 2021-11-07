@@ -47,14 +47,17 @@
 }
 
 .menu_coop {
-    margin-right: 340px;
+    margin-right: 300px;
 }
+.menu_more {
 
+}
 .menu_body {
     height: 120px;
     display: flex;
     /*background-color: azure;*/
-
+    justify-content: space-around;
+    padding: 20px;
 
 }
 
@@ -71,7 +74,8 @@
     /*background-color: aqua;*/
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content:center;
+    padding-right: 20px;
 }
 
 .bbb {
@@ -81,10 +85,12 @@
 .company_contacts {
     display: flex;
     flex-direction: column;
-    justify-content: right;
+    justify-content:center;
+    row-gap: 10px;
     align-items: flex-end;
-    padding: 30px;
-    padding-bottom: 50px;
+
+
+
 
 }
 .watsup {
@@ -100,20 +106,32 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
+
 
 .menu_button {
-    padding-left: 10px;
-}
-.search {
+    display: flex;
+    flex-direction: column;
+    row-gap: 3px;
+    width: 43px;
     height: 43px;
-    width: 290px;
-    margin-left: 10px;
-    background-color: #F4F5FA;
     border-radius: 5px;
-    text-decoration-color: #F1F2F7;
-    text-align: center;
+    background-color:#1E4991 ;
+    margin-left: 20px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.button_line {
+    width: 21px;
+    height: 3px;
+    border-radius: 3px;
+    background-color:#ffffff ;
+
+
+
+
 }
 .login{
     justify-content: center;
@@ -133,8 +151,46 @@
 }
 .e {
     display: flex;
-    padding: 0;
+    width : 380px;
+    height: 43px;
+    border-radius: 10px;
+    justify-content: center;
+    text-align: center;
+
 }
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 290px;
+    /*margin-left: 10px;*/
+    background-color: #F4F5FA;
+    text-decoration-color: #F1F2F7;
+/*    text-align: center;*/
+    border-radius: 5px;
+}
+
+input[type="text"]{
+    /*border: 1px solid gray;*/
+    border: 0px;
+    background: #F4F5FA;
+    /*border-right: 0px;*/
+    outline: none;
+    width: 200px;
+    text-align: center;
+    justify-content: center;
+}
+
+.search_button {
+    width: 90px;
+    /*height: 43px;*/
+    background-color:#1E4991 ;
+    text-align: center;
+    border-radius: 5px;
+}
+
+
 .promo_block {
     display: flex;
     flex-direction: row;
