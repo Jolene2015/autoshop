@@ -423,3 +423,124 @@ input[type="text"]{
     align-items: center;
     margin: 20px;
 }
+
+.news_header{
+    display:flex;
+    height: 50px;
+    margin: 20px;
+
+}
+
+.block_news{
+    display: flex;
+    justify-content: space-evenly;
+}
+.news_item{
+    width: 229px;
+    height: 198px;
+    margin: 20px;
+}
+
+.img_data{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.news_date_btn{
+    width: 89px;
+    height: 20px;
+    background-color: #142436;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -30px;
+}
+
+.bottom_block{
+    display: flex;
+    flex-direction: column;
+    background-color: #0F1A29;
+    width: 768px;
+    height: 557px;
+    margin-top: 90px;
+}
+
+.bottom_info{
+    width: 768px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+.bottom_catalog{
+    width: 120px;
+/*    display: block;
+    justify-content: flex-start;
+    align-items: stretch;
+    row-gap: 25px;
+    margin: 20px;
+*/
+}
+
+.bottom_rubrikator{
+    width: 130px;
+}
+
+.bottom_infofo{
+    width: 260px;
+}
+
+.bottom_contacts{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.bottom_cont_cont{
+    width: 30%;
+}
+
+.bottom_cont_addr{
+    width: 30%;
+    margin-right: 120px;
+}
+
+.bottom_subs{
+    display: flex;
+    justify-content: space-evenly;
+}
+.bottom_subs_online{
+    width: 240px;
+}
+
+.bottom_subs_subs{
+    width: 460px;
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom_subs_block{
+    display: flex;
+    border: 3px solid #255AB3;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+
+.bottom_subs_email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.bottom_subs_btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 159px;
+    background-color: #255AB3;
+}
+
